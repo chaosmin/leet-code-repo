@@ -1,0 +1,32 @@
+package tech.chaosmin.leetcode
+
+import org.junit.Assert
+import org.junit.jupiter.api.Test
+
+/**
+ * @author romani min
+ * @since 2020/4/14
+ */
+internal class SumOfTwoNumbers2Test {
+
+    @Test
+    fun addTwoNumbers() {
+        val l1 = ListNode(7).apply {
+            this.next = ListNode(2).apply {
+                this.next = ListNode(4).apply {
+                    this.next = ListNode(3)
+                }
+            }
+        }
+        val l2 = ListNode(5).apply {
+            this.next = ListNode(6).apply {
+                this.next = ListNode(4)
+            }
+        }
+        val result = SumOfTwoNumbers2.addTwoNumbers(l1, l2)
+        Assert.assertEquals(7, result?.`val`)
+        Assert.assertEquals(8, result?.next?.`val`)
+        Assert.assertEquals(0, result?.next?.next?.`val`)
+        Assert.assertEquals(7, result?.next?.next?.next?.`val`)
+    }
+}
