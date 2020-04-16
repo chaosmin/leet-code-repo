@@ -4,6 +4,9 @@ import org.junit.Assert
 import org.junit.jupiter.api.Test
 
 /**
+ * 输入：(7 -> 2 -> 4 -> 3) + (5 -> 6 -> 4)
+ * 输出：7 -> 8 -> 0 -> 7
+ *
  * @author romani min
  * @since 2020/4/14
  */
