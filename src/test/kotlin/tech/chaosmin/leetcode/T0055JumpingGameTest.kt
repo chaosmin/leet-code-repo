@@ -17,16 +17,16 @@ import org.junit.jupiter.api.Test
  * @author romani min
  * @since 2020/4/17
  */
-internal class JumpingGameTest {
+internal class T0055JumpingGameTest {
 
     @Test
     fun canJump() {
         val testCase1 = intArrayOf(2, 3, 1, 1, 4)
-        val result1 = JumpingGame.canJump(testCase1)
+        val result1 = T0055JumpingGame.canJump(testCase1)
         Assert.assertEquals(true, result1)
 
         val testCase2 = intArrayOf(3, 2, 1, 0, 4)
-        val result2 = JumpingGame.canJump(testCase2)
+        val result2 = T0055JumpingGame.canJump(testCase2)
         Assert.assertEquals(false, result2)
     }
 }

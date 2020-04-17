@@ -13,7 +13,7 @@ package tech.chaosmin.leetcode
  * @author romani min
  * @since 2020/4/16
  */
-object MergeInterval {
+object T0056MergeInterval {
     fun merge(intervals: Array<IntArray>): Array<IntArray> {
         var result = emptyArray<IntArray>()
         intervals.sortedArrayWith(Comparator { o1, o2 ->

@@ -9,7 +9,7 @@ package tech.chaosmin.leetcode
  * @author romani min
  * @since 2020/4/13
  */
-object SumOfTwoNumbers {
+object T0001SumOfTwoNumbers {
     fun twoSum(nums: IntArray, target: Int): IntArray {
         var complement: Int
         val map = hashMapOf<Int, Int>()

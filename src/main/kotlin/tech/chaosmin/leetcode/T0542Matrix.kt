@@ -9,7 +9,7 @@ package tech.chaosmin.leetcode
  * @author romani min
  * @since 2020/4/15
  */
-object Matrix {
+object T0542Matrix {
     fun updateMatrix(matrix: Array<IntArray>): Array<IntArray> {
         val m = matrix.size
         val n = matrix[0].size

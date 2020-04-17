@@ -15,7 +15,7 @@ package tech.chaosmin.leetcode
  * @author romani min
  * @since 2020/4/17
  */
-object JumpingGame {
+object T0055JumpingGame {
     fun canJump(nums: IntArray): Boolean {
         var maxPosition = 0
         nums.forEachIndexed { index, i ->

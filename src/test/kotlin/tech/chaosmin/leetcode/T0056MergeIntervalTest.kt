@@ -17,12 +17,12 @@ import org.junit.jupiter.api.Test
  * @author romani min
  * @since 2020/4/16
  */
-internal class MergeIntervalTest {
+internal class T0056MergeIntervalTest {
 
     @Test
     fun merge() {
         val testCase1 = arrayOf(intArrayOf(1, 3), intArrayOf(2, 6), intArrayOf(8, 10), intArrayOf(15, 18))
-        val result1 = MergeInterval.merge(testCase1)
+        val result1 = T0056MergeInterval.merge(testCase1)
         Assert.assertEquals(1, result1[0][0])
         Assert.assertEquals(6, result1[0][1])
         Assert.assertEquals(8, result1[1][0])
@@ -31,7 +31,7 @@ internal class MergeIntervalTest {
         Assert.assertEquals(18, result1[2][1])
 
         val testCase2 = arrayOf(intArrayOf(1, 4), intArrayOf(4, 5))
-        val result2 = MergeInterval.merge(testCase2)
+        val result2 = T0056MergeInterval.merge(testCase2)
         Assert.assertEquals(1, result2[0][0])
         Assert.assertEquals(5, result2[0][1])
     }

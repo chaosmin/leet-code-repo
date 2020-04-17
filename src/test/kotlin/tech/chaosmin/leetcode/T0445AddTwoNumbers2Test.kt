@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test
  * @author romani min
  * @since 2020/4/14
  */
-internal class SumOfTwoNumbers2Test {
+internal class T0445AddTwoNumbers2Test {
 
     @Test
     fun addTwoNumbers() {
@@ -26,7 +26,7 @@ internal class SumOfTwoNumbers2Test {
                 this.next = ListNode(4)
             }
         }
-        val result = SumOfTwoNumbers2.addTwoNumbers(l1, l2)
+        val result = T0445AddTwoNumbers2.addTwoNumbers(l1, l2)
         Assert.assertEquals(7, result?.`val`)
         Assert.assertEquals(8, result?.next?.`val`)
         Assert.assertEquals(0, result?.next?.next?.`val`)

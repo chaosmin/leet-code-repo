@@ -7,12 +7,12 @@ import org.junit.jupiter.api.Test
  * @author romani min
  * @since 2020/4/15
  */
-internal class MatrixTest {
+internal class T0542MatrixTest {
 
     @Test
     fun updateMatrix() {
         val matrix = arrayOf(intArrayOf(0, 0, 0), intArrayOf(0, 1, 0), intArrayOf(1, 1, 1))
-        val result = Matrix.updateMatrix(matrix)
+        val result = T0542Matrix.updateMatrix(matrix)
         Assert.assertEquals(0, result[0][0])
         Assert.assertEquals(0, result[0][1])
         Assert.assertEquals(0, result[0][2])

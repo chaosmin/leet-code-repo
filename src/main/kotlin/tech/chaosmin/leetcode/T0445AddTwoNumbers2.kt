@@ -11,7 +11,7 @@ import java.util.*
  * @author romani min
  * @since 2020/4/14
  */
-object SumOfTwoNumbers2 {
+object T0445AddTwoNumbers2 {
     fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
         val stack1 = Stack<Int>()
         var temp = l1
@@ -35,8 +35,4 @@ object SumOfTwoNumbers2 {
         }
         return header
     }
-}
-
-class ListNode(var `val`: Int) {
-    var next: ListNode? = null
 }
