@@ -21,6 +21,7 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
     implementation(kotlin("reflect"))
+    implementation("com.alibaba:fastjson:1.2.68")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.2")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.3.71")
 }
