@@ -10,7 +10,7 @@ package tech.chaosmin.leetcode
  * 执行用时 :496 ms, 在所有 Kotlin 提交中击败了100.00%的用户
  * 内存消耗 :44.8 MB, 在所有 Kotlin 提交中击败了100.00%的用户
  *
- * @author romani min
+ * @author romani mi
  * @since 2020/4/24
  */
 object TMS0051ReversePairInArray {
