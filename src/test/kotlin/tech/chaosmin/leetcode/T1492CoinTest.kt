@@ -1,8 +1,7 @@
 package tech.chaosmin.leetcode
 
+import org.junit.Assert
 import org.junit.jupiter.api.Test
-
-import org.junit.jupiter.api.Assertions.*
 
 /**
  * 示例1:
@@ -22,5 +21,16 @@ internal class T1492CoinTest {
 
     @Test
     fun waysToChange() {
+        val testCase1 = 5
+        val result1 = T1492Coin.waysToChange(testCase1)
+        Assert.assertEquals(2, result1)
+
+        val testCase2 = 10
+        val result2 = T1492Coin.waysToChange(testCase2)
+        Assert.assertEquals(4, result2)
+
+        val testCase3 = 900750
+        val result3 = T1492Coin.waysToChange(testCase3)
+        Assert.assertEquals(504188296, result3)
     }
 }

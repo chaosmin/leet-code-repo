@@ -10,6 +10,18 @@ package tech.chaosmin.leetcode
  */
 object T1492Coin {
     fun waysToChange(n: Int): Int {
-        return 0
+        val mod = 1000000007L
+        var ans = 0L
+
+        var i = 0
+        while (i * 25 <= n) {
+            val rest = n - 25 * i
+            val a = rest / 10
+            val b = (rest % 10) / 5
+            ans = (ans + (a + 1) * ((a + b + 1) % mod)) % mod
+            i++
+        }
+
+        return ans.toInt()
     }
 }
