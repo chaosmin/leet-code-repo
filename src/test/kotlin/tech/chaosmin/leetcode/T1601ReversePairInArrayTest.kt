@@ -11,12 +11,12 @@ import org.junit.jupiter.api.Test
  * @author romani min
  * @since 2020/4/24
  */
-internal class TMS0051ReversePairInArrayTest {
+internal class T1601ReversePairInArrayTest {
 
     @Test
     fun reversePairs() {
         val testCase = intArrayOf(7, 5, 6, 4)
-        val result = TMS0051ReversePairInArray.reversePairs(testCase)
+        val result = T1601ReversePairInArray.reversePairs(testCase)
         Assert.assertEquals(5, result)
     }
 }

@@ -2,6 +2,7 @@ package tech.chaosmin.leetcode
 
 import org.junit.Assert
 import org.junit.jupiter.api.Test
+import tech.chaosmin.leetcode.base.ListNode
 
 /**
  * 输入：(2 -> 4 -> 3) + (5 -> 6 -> 4)

@@ -1,5 +1,7 @@
 package tech.chaosmin.leetcode
 
+import tech.chaosmin.leetcode.base.ListNode
+
 /**
  * 2. 两数相加 | 难度：中等
  *

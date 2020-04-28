@@ -2,6 +2,7 @@ package tech.chaosmin.leetcode
 
 import org.junit.Assert
 import org.junit.jupiter.api.Test
+import tech.chaosmin.leetcode.base.TreeNode
 
 /**
  * 示例:

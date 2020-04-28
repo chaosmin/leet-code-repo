@@ -18,7 +18,7 @@ import org.junit.jupiter.api.Assertions.*
  * @author romani min
  * @since 2020/4/23
  */
-internal class TMS0811CoinTest {
+internal class T1492CoinTest {
 
     @Test
     fun waysToChange() {

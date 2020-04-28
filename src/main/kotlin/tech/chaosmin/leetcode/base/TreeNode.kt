@@ -1,4 +1,4 @@
-package tech.chaosmin.leetcode
+package tech.chaosmin.leetcode.base
 
 /**
  * @author romani min

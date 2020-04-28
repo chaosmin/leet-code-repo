@@ -1,5 +1,6 @@
 package tech.chaosmin.leetcode
 
+import tech.chaosmin.leetcode.base.ListNode
 import java.util.*
 
 /**

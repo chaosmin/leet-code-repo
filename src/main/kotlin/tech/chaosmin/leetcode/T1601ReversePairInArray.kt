@@ -13,7 +13,7 @@ package tech.chaosmin.leetcode
  * @author romani mi
  * @since 2020/4/24
  */
-object TMS0051ReversePairInArray {
+object T1601ReversePairInArray {
     fun reversePairs(nums: IntArray): Int {
         val size = nums.size
         if (size < 2) {

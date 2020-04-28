@@ -8,7 +8,7 @@ package tech.chaosmin.leetcode
  * @author romani min
  * @since 2020/4/23
  */
-object TMS0811Coin {
+object T1492Coin {
     fun waysToChange(n: Int): Int {
         return 0
     }
