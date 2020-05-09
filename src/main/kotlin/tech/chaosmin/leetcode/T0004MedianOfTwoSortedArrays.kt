@@ -10,7 +10,7 @@ package tech.chaosmin.leetcode
  * @author romani min
  * @since 2020/4/21
  */
-object T0004FindMedianSortedArrays {
+object T0004MedianOfTwoSortedArrays {
     fun findMedianSortedArrays(nums1: IntArray, nums2: IntArray): Double {
         return 1.1
     }
