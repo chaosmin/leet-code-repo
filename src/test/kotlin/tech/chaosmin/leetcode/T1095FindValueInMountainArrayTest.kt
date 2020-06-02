@@ -18,16 +18,16 @@ import tech.chaosmin.leetcode.base.MountainArray
  * @author romani min
  * @since 2020/4/29
  */
-internal class T1905FindValueInMountainArrayTest {
+internal class T1095FindValueInMountainArrayTest {
 
     @Test
     fun findInMountainArray() {
         val testCase1 = MountainArray(intArrayOf(1, 2, 3, 4, 5, 3, 1))
-        val result1 = T1905FindValueInMountainArray.findInMountainArray(3, testCase1)
+        val result1 = T1095FindValueInMountainArray.findInMountainArray(3, testCase1)
         Assert.assertEquals(2, result1)
 
         val testCase2 = MountainArray(intArrayOf(0, 1, 2, 4, 2, 1))
-        val result2 = T1905FindValueInMountainArray.findInMountainArray(3, testCase2)
+        val result2 = T1095FindValueInMountainArray.findInMountainArray(3, testCase2)
         Assert.assertEquals(-1, result2)
     }
 }

@@ -31,7 +31,7 @@ import tech.chaosmin.leetcode.base.MountainArray
  * @author romani min
  * @since 2020/4/29
  */
-object T1905FindValueInMountainArray {
+object T1095FindValueInMountainArray {
     private fun binarySearch(target: Int, mountainArr: MountainArray, left: Int, right: Int, side: Int): Int {
         var l = left
         var r = right
